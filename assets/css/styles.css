@@ -1,0 +1,155 @@
+/* h1: Roboto Black (900) 100px #4F4D53
+h2: Roboto Black (900) 64px #E8BE02
+h3: Roboto Black (900) 20px #E8BE02
+h4: Roboto Regular (400) 14px #FFFFFF
+p: Roboto Regular (400) 20px #4f4d53 */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 100px;
+  color: #4f4d53;
+}
+
+nav {
+  background-color: #4f4d53;
+  /* padding-inline: 10%; */
+  height: 49px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* position: relative; */
+}
+
+nav input {
+  /* margin-left: 59%; */
+  background: none;
+  color: white;
+  background-color: #33333a;
+  border: none;
+  /* position: relative; */
+}
+
+header {
+  background-image: url("../img/img_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  padding-block: 10%;
+  position: relative;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header .img-group {
+  position: absolute;
+  top: 60%;
+  right: 21%;
+}
+header .img-group img {
+  margin: 37px;
+}
+
+.b-radius-50 {
+  border-radius: 50%;
+}
+
+.mt-123 {
+  margin-top: 123px !important;
+}
+
+.f-size-50 {
+  font-size: 50px;
+}
+
+.clear-both {
+  clear: both !important;
+}
+
+.dark-yellow {
+  color: #e8be02;
+}
+
+.p-y-123 {
+  padding-inline: 123px;
+}
+
+@media only screen and (min-width: 970px) and (max-width: 1200px) {
+  header .img-group {
+    position: absolute;
+    top: 60%;
+    right: 12%;
+  }
+}
+
+@media only screen and (max-width: 969px) {
+  header .img-group {
+    display: none;
+  }
+  .p-y-123 {
+    padding-inline: 50px;
+  }
+}
+@media only screen and (max-width: 730px) {
+    header .img-group {
+        display: none;
+      }
+      .p-y-123 {
+        padding-inline: 30px;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    header .img-group {
+        display: none;
+      }
+      .p-y-123 {
+        padding-inline: 10px;
+      }
+}
+
+.hero img {
+  width: 100px;
+}
+
+.second-sec-hero {
+  padding-top: 19px;
+}
+.second-sec-hero p,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(79, 77, 83);
+    border-top: 10px solid #e8be02;
+
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+
+}
